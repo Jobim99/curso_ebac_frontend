@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+input {
+    padding: 4px;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(1, 138, 1, 0.699);
+    border: none;
+    width: 50%;
+    padding: 4px;
+    color: aliceblue;
+}
+
+.erro {
+    display: none;
+    background-color: red;
+    color: aliceblue;
+    width: 50%;
+    margin-bottom: -15px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.certo {
+    background-color: rgba(1, 138, 1, 0.699);
+    width: 50%;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
